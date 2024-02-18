@@ -64,7 +64,7 @@ class LoginVC: UIViewController,LoginViewInterface,UIGestureRecognizerDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        self.hideKeyboardWhenTappedAround()
         presenter?.notifyViewDidLoad()
 
     }
